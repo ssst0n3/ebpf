@@ -1,4 +1,8 @@
 ```
+$ docker build -t test .
+```
+
+```
 $ docker run -ti --cap-add CAP_SYS_ADMIN test ./hello_c/hello_c
 2025/09/17 09:51:16 Waiting for events..
 2025/09/17 09:51:16 uid: 0	pid: 810297	comm: iptables.sh
